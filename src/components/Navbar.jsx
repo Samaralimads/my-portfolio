@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import "./Navbar.css";
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -8,28 +15,35 @@ function Navbar() {
         behavior: "smooth",
         top: section.offsetTop,
       });
+      setIsMenuOpen(false); // Close the menu after clicking a link
     }
   };
 
   return (
-    <nav>
-      <div className="logo">
-        <img src="logo.png" alt="Logo" />
+    <nav className="navbar">
+      <a onClick={() => scrollToSection("home")}>
+        <img className="logo" src="" alt="logo" />
+      </a>
+      <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+        <a href="#home" onClick={() => scrollToSection("home")}>
+          HOME
+        </a>
+        <a href="#about" onClick={() => scrollToSection("about")}>
+          ABOUT
+        </a>
+        <a href="#projects" onClick={() => scrollToSection("projects")}>
+          PROJECTS
+        </a>
+        <a href="#contact" onClick={() => scrollToSection("contact")}>
+          CONTACT
+        </a>
       </div>
-      <ul>
-        <li>
-          <button onClick={() => scrollToSection("home")}>Home</button>
-        </li>
-        <li>
-          <button onClick={() => scrollToSection("about")}>About</button>
-        </li>
-        <li>
-          <button onClick={() => scrollToSection("projects")}>Projects</button>
-        </li>
-        <li>
-          <button onClick={() => scrollToSection("contact")}>Contact</button>
-        </li>
-      </ul>
+      <div
+        className={`burger-menu ${isMenuOpen ? "open" : ""}`}
+        onClick={toggleMenu}
+      >
+        <img className="menu-icon" src="menu-bar.png" alt="Menu" />
+      </div>
     </nav>
   );
 }

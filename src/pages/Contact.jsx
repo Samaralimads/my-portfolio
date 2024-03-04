@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact">
+    <section id="contact">
       <h1>Contact</h1>
       <div>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel id eveniet
@@ -33,7 +33,7 @@ function Contact() {
         expedita quibusdam accusantium aperiam mollitia! Voluptate eaque a
         officia minima harum id hic.
       </div>
-    </div>
+    </section>
   );
 }
 

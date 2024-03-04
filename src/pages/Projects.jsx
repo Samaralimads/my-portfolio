@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div id="projects">
+    <section id="projects">
       <h1>Projects</h1>
       <div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
@@ -41,7 +41,7 @@ function Projects() {
         fugit dolorem sequi, nobis expedita! Unde deserunt voluptas ea quidem
         nisi soluta excepturi asperiores placeat nam dignissimos!
       </div>
-    </div>
+    </section>
   );
 }
 

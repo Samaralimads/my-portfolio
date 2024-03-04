@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div id="home">
+    <section id="home">
       <h1>Home</h1>
       <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus
@@ -39,7 +39,7 @@ function Home() {
         veritatis consectetur error. Quae est obcaecati quas beatae tempora, qui
         sapiente doloremque accusantium sunt eos doloribus, totam voluptatum.
       </div>
-    </div>
+    </section>
   );
 }
 
