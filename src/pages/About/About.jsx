@@ -6,27 +6,35 @@ function About() {
     <section className="about-section" id="about">
       <div className="about-title">
         <h1>About</h1>
-        <h2>Get to know me a bit better.</h2>
+        <h2>Get to know me a bit better</h2>
       </div>
       <div className="about-description">
         <p>
-          After spending several years in the <b>field of marketing</b>, my
-          desire to design and build websites eventually took over. In 2023, I
-          took the opportunity to undergo a career transition and immerse myself
-          in the exciting world of web development. I love this new challenge!
+          Hey there! 👋🏽 As someone who's worn many hats, from full-time nanny to
+          trade marketing assistant, I've always been drawn to diverse
+          experiences and new challenges. Recently, I've taken the leap into the
+          world of web development, and I couldn't be more excited!
         </p>
 
         <p>
-          I specialise in frontend development, and my go-to framework is React
-          JS. As a web developer, I enjoy using my attention to detail, my
-          passion for UX/UI design and my irresistible love for making things.
-          Being organised and methodical is my secret sauce for getting things
-          done.
+          With a background in business and childcare, I bring a unique mix of
+          skills to the table. Think problem-solving, adaptability, and a knack
+          for connecting with people. Now, I'm diving headfirst into frontend
+          and backend development, with eagerness and curiosity to really
+          immerse myself in this new passion.
         </p>
 
         <p>
-          When I am not coding, you will often find me with my kindle in hand,
-          ..., or practising ashtanga yoga.
+          When I'm not busy coding, you'll often find me with my Kindle in hand,
+          on a mat practicing Ashtanga yoga, or looking for a new favorite
+          restaurant.
+        </p>
+        <p>
+          If you're up for a chat about web development, or just want to swap
+          stories, hit me up! If you're interested in discussing potential
+          collaborations or job opportunities, don't hesitate to reach out!
+          Let's chat about how I can bring my skills and enthusiasm to your
+          team.
         </p>
       </div>
     </section>

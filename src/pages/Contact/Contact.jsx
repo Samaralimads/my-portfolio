@@ -2,36 +2,62 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact">
-      <h1>Contact</h1>
+    <section className="contact-section" id="contact">
       <div>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel id eveniet
-        reiciendis tempora esse eos reprehenderit laboriosam numquam qui.
-        Recusandae dolores laborum odit voluptatum blanditiis id commodi,
-        eveniet impedit. Velit? Omnis repudiandae id vitae impedit enim magnam
-        ea laboriosam, illo soluta at recusandae sequi porro quis dolores quas.
-        Eligendi numquam unde ipsa corporis sapiente fugit ab soluta dolor
-        doloribus excepturi? Numquam unde eaque corporis dolores labore ipsa
-        deserunt similique incidunt explicabo? Vitae quasi minus eaque
-        veritatis? Possimus quas, quisquam pariatur explicabo delectus officia
-        minus architecto itaque repellat veniam, commodi doloremque! Quibusdam
-        quidem excepturi neque dolores alias nam necessitatibus ab ut,
-        voluptatibus dicta quisquam saepe hic? Veritatis a dolorem mollitia
-        odit. Maxime nulla officiis veritatis eaque, vero illum sunt. Similique,
-        impedit! Praesentium voluptates quasi natus tenetur. Ab ducimus
-        cupiditate tenetur, eligendi molestias obcaecati accusantium vero
-        veritatis at fuga quam reprehenderit distinctio nostrum expedita aut
-        sunt similique numquam quisquam sapiente vitae quaerat. Facere excepturi
-        doloremque molestias nobis unde delectus? Iure fugiat in, unde ratione
-        hic repellendus soluta suscipit cum harum dolorem laudantium
-        perferendis? Enim, culpa suscipit repellat possimus beatae corporis eius
-        rerum! Dolores ratione nam nostrum labore quidem, vitae sunt odio, magni
-        veritatis impedit recusandae esse cum, quas non soluta! Repellendus,
-        quam eos. Veritatis eius quaerat et alias voluptas sapiente voluptatum
-        odit! Alias aut assumenda veritatis saepe nulla, quas hic reiciendis
-        velit cupiditate quidem. Possimus, ea consequatur! Consectetur assumenda
-        expedita quibusdam accusantium aperiam mollitia! Voluptate eaque a
-        officia minima harum id hic.
+        <h1 className="contact-page-title">Contact</h1>
+        <span className="contact-desc">
+          Please fill out the form below with your request.
+        </span>
+        <form className="contact-form">
+          <input
+            type="text"
+            className="name"
+            placeholder="Your name"
+            name="your_name"
+            required
+          />
+          <input
+            type="email"
+            className="email"
+            placeholder="Your email"
+            name="your_email"
+            required
+          />
+          <textarea
+            className="msg"
+            name="message"
+            rows="5"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit" value="Send" className="submitBtn">
+            Submit
+          </button>
+        </form>
+        <div className="links">
+          <a
+            href="https://linkedin.com/in/monika-grajez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/linkedin-icon-nbqXHx2p-png"
+              alt="LinkedIn icon"
+              className="link"
+            />
+          </a>
+          <a
+            href="https://github.com/mgrajez"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/github-icon-Lg-Ffk2r.png"
+              alt="Github icon"
+              className="link"
+            />
+          </a>
+        </div>
       </div>
     </section>
   );

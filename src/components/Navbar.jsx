@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <a onClick={() => scrollToSection("home")}>
-        <img className="logo" src="Logo1.png" alt="logo" />
+        <img className="logo" src="Logo-thin.png" alt="logo" />
       </a>
       <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <a onClick={() => scrollToSection("home")}>HOME</a>

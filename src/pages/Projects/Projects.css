@@ -1,0 +1,35 @@
+.project-1,
+.project-2,
+.project-3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 2rem;
+  margin: 2.5rem 3rem 3rem;
+  max-width: 75rem;
+  justify-content: center;
+  justify-items: stretch;
+}
+
+.project-img img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1023px) {
+  .projects-container {
+    grid-template-columns: 50% 50%;
+  }
+}
