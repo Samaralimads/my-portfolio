@@ -1,12 +1,17 @@
 #root {
-  font-family: Montserrat, sans serif;
+  font-family: Montserrat, sans-serif;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
 }
-/* 
+
 body {
-  padding-top: 6rem;
-} */
+  overflow-x: hidden;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

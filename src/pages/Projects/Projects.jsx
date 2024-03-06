@@ -11,7 +11,7 @@ function Projects() {
       <div className="projects-container">
         <div className="project-1">
           <div className="project-img">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
+            <a href="https://zenith-tracker.netlify.app" target="_blank">
               <img src="Zenith.png" alt="finance tracker" />
             </a>
           </div>
@@ -27,7 +27,7 @@ function Projects() {
             </p>
           </div>
           <div className="buttons-container">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
+            <a href="https://zenith-tracker.netlify.app" target="_blank">
               <button>Demo</button>
             </a>
             <a
@@ -40,7 +40,7 @@ function Projects() {
         </div>
         <div className="project-2">
           <div className="project-img">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
+            <a href="https://shelf-indulgence.netlify.app" target="_blank">
               <img src="Shelf-indulgence.png" alt="library app" />
             </a>
           </div>
@@ -51,7 +51,7 @@ function Projects() {
             </p>
           </div>
           <div className="buttons-container">
-            <a href="https://shelf-indulgence.netlify.app//" target="_blank">
+            <a href="https://shelf-indulgence.netlify.app" target="_blank">
               <button>Demo</button>
             </a>
             <a
@@ -64,8 +64,11 @@ function Projects() {
         </div>
         <div className="project-3">
           <div className="project-img">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
-              <img src="Tic-tac-toe.png" alt="finance tracker" />
+            <a
+              href="https://samaralimads.github.io/game-project"
+              target="_blank"
+            >
+              <img src="Tic-tac-toe.png" alt="game" />
             </a>
           </div>
           <div className="project-text">
@@ -76,7 +79,7 @@ function Projects() {
           </div>
           <div className="buttons-container">
             <a
-              href="https://samaralimads.github.io/game-project/"
+              href="https://samaralimads.github.io/game-project"
               target="_blank"
             >
               <button>Demo</button>
