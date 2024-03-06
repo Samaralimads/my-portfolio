@@ -26,15 +26,14 @@ function About() {
 
         <p>
           When I'm not busy coding, you'll often find me with my Kindle in hand,
-          on a mat practicing Ashtanga yoga, or looking for a new favorite
+          on a mat practicing Ashtanga yoga, or in the search for a new favorite
           restaurant.
         </p>
         <p>
-          If you're up for a chat about web development, or just want to swap
-          stories, hit me up! If you're interested in discussing potential
-          collaborations or job opportunities, don't hesitate to reach out!
-          Let's chat about how I can bring my skills and enthusiasm to your
-          team.
+          If you're up for a chat about tech, or just want to swap stories, hit
+          me up! If you're interested in discussing potential collaborations or
+          job opportunities, don't hesitate to reach out! Let's chat about how I
+          can bring my skills and enthusiasm to your team.
         </p>
       </div>
     </section>

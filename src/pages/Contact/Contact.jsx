@@ -1,26 +1,29 @@
 import React from "react";
+import "./Contact.css";
 
 function Contact() {
   return (
     <section className="contact-section" id="contact">
       <div>
-        <h1 className="contact-page-title">Contact</h1>
-        <span className="contact-desc">
-          Please fill out the form below with your request.
-        </span>
-        <form className="contact-form">
+        <h1>Contact</h1>
+        <h2>Please fill out the form below with your request</h2>
+        <form
+          className="contact-form"
+          action="https://formsubmit.co/samara.limads@gmail.com"
+          method="POST"
+        >
           <input
             type="text"
             className="name"
             placeholder="Your name"
-            name="your_name"
+            name="name"
             required
           />
           <input
             type="email"
             className="email"
             placeholder="Your email"
-            name="your_email"
+            name="email"
             required
           />
           <textarea
@@ -36,26 +39,18 @@ function Contact() {
         </form>
         <div className="links">
           <a
-            href="https://linkedin.com/in/monika-grajez"
+            href="https://www.linkedin.com/in/samara-lima-webdev/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="/assets/linkedin-icon-nbqXHx2p-png"
-              alt="LinkedIn icon"
-              className="link"
-            />
+            <img src="linkedin.png" alt="LinkedIn icon" className="link" />
           </a>
           <a
-            href="https://github.com/mgrajez"
+            href="https://github.com/samaralimads"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="/assets/github-icon-Lg-Ffk2r.png"
-              alt="Github icon"
-              className="link"
-            />
+            <img src="github.png" alt="Github icon" className="link" />
           </a>
         </div>
       </div>

@@ -4,11 +4,18 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border: 1px solid black;
+  border: 1px solid #808080;
   border-radius: 1rem;
   padding: 1rem;
-  transition: all 0.2s ease-in-out;
   align-items: center;
+  transition: border-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.project-1:hover,
+.project-2:hover,
+.project-3:hover {
+  border-color: #fe8882;
+  transform: scale(1.05);
 }
 
 .projects-container {
@@ -20,12 +27,39 @@
   justify-content: center;
   justify-items: stretch;
 }
+.project-text h3 {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fe8882;
+}
+.project-text {
+  text-align: center;
+  max-width: 100%;
+  text-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-text p {
+  width: 90%;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  margin-bottom: 1.6rem;
+}
 
 .project-img img {
   border-radius: 0.5rem;
   width: 100%;
   height: auto;
   cursor: pointer;
+}
+
+.buttons-container button {
+  margin: 5px 8px;
 }
 
 @media screen and (min-width: 721px) and (max-width: 1023px) {

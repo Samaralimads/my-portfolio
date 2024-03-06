@@ -12,7 +12,7 @@ function Projects() {
         <div className="project-1">
           <div className="project-img">
             <a href="https://zenith-tracker.netlify.app/" target="_blank">
-              <img src="./Zenith.png" alt="finance tracker" />
+              <img src="Zenith.png" alt="finance tracker" />
             </a>
           </div>
           <div className="project-text">
@@ -41,7 +41,7 @@ function Projects() {
         <div className="project-2">
           <div className="project-img">
             <a href="https://zenith-tracker.netlify.app/" target="_blank">
-              <img src="./Shelf-indulgence.png" alt="library app" />
+              <img src="Shelf-indulgence.png" alt="library app" />
             </a>
           </div>
           <div className="project-text">
@@ -51,11 +51,11 @@ function Projects() {
             </p>
           </div>
           <div className="buttons-container">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
+            <a href="https://shelf-indulgence.netlify.app//" target="_blank">
               <button>Demo</button>
             </a>
             <a
-              href="https://github.com/Samaralimads/expenses-tracker"
+              href="https://github.com/Samaralimads/library-app"
               target="_blank"
             >
               <button>Code</button>
@@ -65,21 +65,24 @@ function Projects() {
         <div className="project-3">
           <div className="project-img">
             <a href="https://zenith-tracker.netlify.app/" target="_blank">
-              <img src="Zenith.png" alt="finance tracker" />
+              <img src="Tic-tac-toe.png" alt="finance tracker" />
             </a>
           </div>
           <div className="project-text">
-            <h3>Zenith</h3>
+            <h3>Tic-Tac-Toe</h3>
             <p>
               write description for Zenith <b>built using MERN stack</b>.
             </p>
           </div>
           <div className="buttons-container">
-            <a href="https://zenith-tracker.netlify.app/" target="_blank">
+            <a
+              href="https://samaralimads.github.io/game-project/"
+              target="_blank"
+            >
               <button>Demo</button>
             </a>
             <a
-              href="https://github.com/Samaralimads/expenses-tracker"
+              href="https://github.com/Samaralimads/game-project"
               target="_blank"
             >
               <button>Code</button>

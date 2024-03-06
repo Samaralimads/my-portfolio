@@ -69,10 +69,17 @@ section {
   line-height: 1.6rem;
 }
 
+.tech-container {
+  text-align: center;
+}
+
+.tech-icons {
+  max-width: 30rem;
+}
+
 .tech-icons p {
   display: inline-block;
   outline: 0;
-  border: 0;
   background-color: white;
   border-radius: 20px;
   padding: 8px 16px;
@@ -81,6 +88,9 @@ section {
   color: black;
   border: 1px solid #fae3db;
   line-height: 26px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: default;
 }
 
 .tech-icons p:hover {
@@ -100,6 +110,7 @@ button {
     rgba(0, 0, 0, 0.05) 0px 1px 1.5px 0px;
   font-weight: 800;
   font-size: 16px;
+  margin-top: 3rem;
 }
 
 button:hover {
