@@ -17,7 +17,7 @@ function Home() {
           </h1>
           <p className="job-title">Full-Stack Web Developer</p>
           <p className="introduction">
-            Insert here a quick intro about myself.
+            Fueled by curiosity and a passion for learning.
           </p>
         </div>
       </div>

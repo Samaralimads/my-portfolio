@@ -18,12 +18,11 @@ function Projects() {
           <div className="project-text">
             <h3>Zenith</h3>
             <p>
-              write description for Zenith <b>built using MERN stack</b>Lorem
-              ipsum dolor sit amet, consectetur adipisicing elit. Ratione nulla
-              adipisci eveniet unde eligendi optio veritatis atque! Minima, at
-              ab! Velit, tempora eius officia dolores in quos cum itaque ipsa!
-              Asperiores temporibus vel voluptatibus perferendis quis tempora,
-              reprehenderit dolorum, eligendi
+              Zenith is an expenses tracker that allows you manage your finances
+              by adding transactions as expenses or income to a selected
+              category. I used <b>MUI</b> and <b>charts.js</b> for the first
+              time to add nice features. This is a full-stack web application{" "}
+              built using<b> MERN stack</b> (MongoDB, Express, React, Node.js).
             </p>
           </div>
           <div className="buttons-container">
@@ -47,7 +46,11 @@ function Projects() {
           <div className="project-text">
             <h3>Shelf-Indulgence</h3>
             <p>
-              write description for Shelf-Indulgence <b>REST api</b>.
+              Shelf-Indulgence is a website to manage your reads. It includes
+              functionalities and features like search bar and star rating of a
+              book. It's a <b>Single Page Application (SPA)</b>, using React and
+              integrated with an external API. It performs all <b>CRUD</b>{" "}
+              (Create, Read, Update, Delete) operations.
             </p>
           </div>
           <div className="buttons-container">
@@ -74,7 +77,10 @@ function Projects() {
           <div className="project-text">
             <h3>Tic-Tac-Toe</h3>
             <p>
-              write description for Zenith <b>built using MERN stack</b>.
+              This was my first ever project as a web-dev studend. We had to
+              create a Front-End game <b>using JavaScript, CSS and HTML</b>. I
+              chose Tic-Tac-Toe. It was a very fun experience and a nice
+              challenge as someone with no prevoius backgroung in tech.
             </p>
           </div>
           <div className="buttons-container">

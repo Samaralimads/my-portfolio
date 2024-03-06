@@ -125,7 +125,7 @@ button:hover {
   .projects-section,
   .contact-section {
     height: auto;
-    padding-top: 60px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,7 +179,7 @@ button:hover {
   .contact-section .links {
     position: static;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
   .contact-section .link {
