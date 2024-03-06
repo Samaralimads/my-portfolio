@@ -18,11 +18,12 @@ function Projects() {
           <div className="project-text">
             <h3>Zenith</h3>
             <p>
-              Zenith is an expenses tracker that allows you manage your finances
-              by adding transactions as expenses or income to a selected
-              category. I used <b>MUI</b> and <b>charts.js</b> for the first
-              time to add nice features. This is a full-stack web application{" "}
-              built using<b> MERN stack</b> (MongoDB, Express, React, Node.js).
+              Zenith is an expense tracker that allows you to manage your
+              finances by adding transactions as expenses or income to a
+              selected category. I used <b>MUI</b> and <b>Charts.js</b> for the
+              first time to add nice features. This is a full-stack web
+              application built using the <b> MERN stack</b> (MongoDB, Express,
+              React, Node.js).
             </p>
           </div>
           <div className="buttons-container">
@@ -46,9 +47,9 @@ function Projects() {
           <div className="project-text">
             <h3>Shelf-Indulgence</h3>
             <p>
-              Shelf-Indulgence is a website to manage your reads. It includes
-              functionalities and features like search bar and star rating of a
-              book. It's a <b>Single Page Application (SPA)</b>, using React and
+              Shelf-Indulgence is a website to manage your reading list. It
+              includes features such as a search bar and star ratings for books.
+              It's a <b>Single Page Application (SPA)</b> built using React and
               integrated with an external API. It performs all <b>CRUD</b>{" "}
               (Create, Read, Update, Delete) operations.
             </p>
@@ -77,10 +78,11 @@ function Projects() {
           <div className="project-text">
             <h3>Tic-Tac-Toe</h3>
             <p>
-              This was my first ever project as a web-dev studend. We had to
-              create a Front-End game <b>using JavaScript, CSS and HTML</b>. I
-              chose Tic-Tac-Toe. It was a very fun experience and a nice
-              challenge as someone with no prevoius backgroung in tech.
+              This was my first project as a web development student. We were
+              tasked with creating a front-end game using{" "}
+              <b>JavaScript, CSS and HTML</b>. I chose Tic-Tac-Toe. It was a
+              very enjoyable experience and a challenging one, especially as
+              someone with no previous background in tech.
             </p>
           </div>
           <div className="buttons-container">
