@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Resume from "../../assets/Samara-lima.pdf";
+import Resume from "../../assets/Samara Lima - resume.pdf";
 
 function Home() {
   return (
