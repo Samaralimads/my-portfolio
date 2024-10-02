@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Resume from "../../assets/Samara Lima - resume.pdf";
+import Resume from "../../assets/Samara Resume.pdf";
 
 function Home() {
   return (
@@ -33,7 +33,7 @@ function Home() {
           <p>MongoDB</p>
           <p>Express</p>
         </div>
-        <a href={Resume} download="Samara-lima.pdf">
+        <a href={Resume} download="Samara Resume.pdf">
           <button>Download My Resume</button>
         </a>
       </div>
