@@ -39,7 +39,7 @@ function Contact() {
         </form>
         <div className="links">
           <a
-            href="https://www.linkedin.com/in/samara-lima-webdev/"
+            href="https://www.linkedin.com/in/samara-dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
